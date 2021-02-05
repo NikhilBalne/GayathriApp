@@ -3,27 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B3DA0781B7446452C11F0D83 /* Pods_Gayathri.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6311B6EB7310083A07DC82D /* Pods_Gayathri.framework */; };
 		CB03D4BB2588F57100B67D3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB03D4BA2588F57100B67D3E /* AppDelegate.swift */; };
 		CB03D4BD2588F57100B67D3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB03D4BC2588F57100B67D3E /* SceneDelegate.swift */; };
-		CB03D4BF2588F57100B67D3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB03D4BE2588F57100B67D3E /* ViewController.swift */; };
+		CB03D4BF2588F57100B67D3E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB03D4BE2588F57100B67D3E /* LoginViewController.swift */; };
 		CB03D4C22588F57100B67D3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB03D4C02588F57100B67D3E /* Main.storyboard */; };
 		CB03D4C42588F57500B67D3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB03D4C32588F57500B67D3E /* Assets.xcassets */; };
 		CB03D4C72588F57500B67D3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB03D4C52588F57500B67D3E /* LaunchScreen.storyboard */; };
+		CB03D4D62588FEB800B67D3E /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB03D4D52588FEB800B67D3E /* UIView+Extension.swift */; };
+		CB03D4DC2589064E00B67D3E /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB03D4DB2589064E00B67D3E /* Montserrat-Bold.ttf */; };
+		CB03D4E125890CC500B67D3E /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB03D4E025890CC500B67D3E /* Montserrat-Regular.ttf */; };
+		CB03D4E42589197E00B67D3E /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB03D4E32589197E00B67D3E /* Montserrat-SemiBold.ttf */; };
+		CBCDCDD225A2E5F900773966 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCDCDD125A2E5F900773966 /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1641618208ACA2A4D266DF4E /* Pods-Gayathri.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gayathri.release.xcconfig"; path = "Target Support Files/Pods-Gayathri/Pods-Gayathri.release.xcconfig"; sourceTree = "<group>"; };
+		373058B29DF40B0E0592961B /* Pods-Gayathri.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gayathri.debug.xcconfig"; path = "Target Support Files/Pods-Gayathri/Pods-Gayathri.debug.xcconfig"; sourceTree = "<group>"; };
 		CB03D4B72588F57100B67D3E /* Gayathri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gayathri.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB03D4BA2588F57100B67D3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB03D4BC2588F57100B67D3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CB03D4BE2588F57100B67D3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB03D4BE2588F57100B67D3E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CB03D4C12588F57100B67D3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB03D4C32588F57500B67D3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB03D4C62588F57500B67D3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB03D4C82588F57500B67D3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB03D4D52588FEB800B67D3E /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		CB03D4DB2589064E00B67D3E /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		CB03D4E025890CC500B67D3E /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		CB03D4E32589197E00B67D3E /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		CBCDCDD125A2E5F900773966 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		F6311B6EB7310083A07DC82D /* Pods_Gayathri.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gayathri.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3DA0781B7446452C11F0D83 /* Pods_Gayathri.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9AA88A590F4715C0B74383C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6311B6EB7310083A07DC82D /* Pods_Gayathri.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3C18E5169D2DF5B1EE34264 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				373058B29DF40B0E0592961B /* Pods-Gayathri.debug.xcconfig */,
+				1641618208ACA2A4D266DF4E /* Pods-Gayathri.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CB03D4AE2588F57100B67D3E = {
 			isa = PBXGroup;
 			children = (
 				CB03D4B92588F57100B67D3E /* Gayathri */,
 				CB03D4B82588F57100B67D3E /* Products */,
+				B3C18E5169D2DF5B1EE34264 /* Pods */,
+				9AA88A590F4715C0B74383C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +90,84 @@
 		CB03D4B92588F57100B67D3E /* Gayathri */ = {
 			isa = PBXGroup;
 			children = (
-				CB03D4BA2588F57100B67D3E /* AppDelegate.swift */,
-				CB03D4BC2588F57100B67D3E /* SceneDelegate.swift */,
-				CB03D4BE2588F57100B67D3E /* ViewController.swift */,
+				CB03D4D92589062400B67D3E /* Fonts */,
+				CB03D4D42588FEA300B67D3E /* Extensions */,
+				CB03D4CF2588F9FD00B67D3E /* LoginVC */,
+				CBBEAE6525986E6300D46400 /* Common */,
 				CB03D4C02588F57100B67D3E /* Main.storyboard */,
 				CB03D4C32588F57500B67D3E /* Assets.xcassets */,
 				CB03D4C52588F57500B67D3E /* LaunchScreen.storyboard */,
 				CB03D4C82588F57500B67D3E /* Info.plist */,
 			);
 			path = Gayathri;
+			sourceTree = "<group>";
+		};
+		CB03D4CF2588F9FD00B67D3E /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				CB03D4D12588FA1100B67D3E /* Model */,
+				CB03D4D02588FA0A00B67D3E /* View */,
+				CB03D4D22588FA1B00B67D3E /* ViewModel */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		CB03D4D02588FA0A00B67D3E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB03D4BE2588F57100B67D3E /* LoginViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB03D4D12588FA1100B67D3E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB03D4D22588FA1B00B67D3E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CBCDCDD125A2E5F900773966 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CB03D4D42588FEA300B67D3E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CB03D4D52588FEB800B67D3E /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CB03D4D92589062400B67D3E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CB03D4DA2589062B00B67D3E /* Montserrat */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CB03D4DA2589062B00B67D3E /* Montserrat */ = {
+			isa = PBXGroup;
+			children = (
+				CB03D4DB2589064E00B67D3E /* Montserrat-Bold.ttf */,
+				CB03D4E025890CC500B67D3E /* Montserrat-Regular.ttf */,
+				CB03D4E32589197E00B67D3E /* Montserrat-SemiBold.ttf */,
+			);
+			path = Montserrat;
+			sourceTree = "<group>";
+		};
+		CBBEAE6525986E6300D46400 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CB03D4BA2588F57100B67D3E /* AppDelegate.swift */,
+				CB03D4BC2588F57100B67D3E /* SceneDelegate.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB03D4CB2588F57500B67D3E /* Build configuration list for PBXNativeTarget "Gayathri" */;
 			buildPhases = (
+				AE1121F22F1669069D6BD882 /* [CP] Check Pods Manifest.lock */,
 				CB03D4B32588F57100B67D3E /* Sources */,
 				CB03D4B42588F57100B67D3E /* Frameworks */,
 				CB03D4B52588F57100B67D3E /* Resources */,
+				3F4314151DE0E5D300F10E15 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,21 +229,68 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB03D4E42589197E00B67D3E /* Montserrat-SemiBold.ttf in Resources */,
+				CB03D4DC2589064E00B67D3E /* Montserrat-Bold.ttf in Resources */,
 				CB03D4C72588F57500B67D3E /* LaunchScreen.storyboard in Resources */,
 				CB03D4C42588F57500B67D3E /* Assets.xcassets in Resources */,
+				CB03D4E125890CC500B67D3E /* Montserrat-Regular.ttf in Resources */,
 				CB03D4C22588F57100B67D3E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3F4314151DE0E5D300F10E15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gayathri/Pods-Gayathri-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gayathri/Pods-Gayathri-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gayathri/Pods-Gayathri-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE1121F22F1669069D6BD882 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gayathri-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CB03D4B32588F57100B67D3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB03D4BF2588F57100B67D3E /* ViewController.swift in Sources */,
+				CB03D4BF2588F57100B67D3E /* LoginViewController.swift in Sources */,
 				CB03D4BB2588F57100B67D3E /* AppDelegate.swift in Sources */,
+				CB03D4D62588FEB800B67D3E /* UIView+Extension.swift in Sources */,
+				CBCDCDD225A2E5F900773966 /* LoginViewModel.swift in Sources */,
 				CB03D4BD2588F57100B67D3E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +368,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +423,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -283,10 +435,12 @@
 		};
 		CB03D4CC2588F57500B67D3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 373058B29DF40B0E0592961B /* Pods-Gayathri.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8LUCJRYH2;
 				INFOPLIST_FILE = Gayathri/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -295,16 +449,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.qurix.com.Gayathri;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CB03D4CD2588F57500B67D3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1641618208ACA2A4D266DF4E /* Pods-Gayathri.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8LUCJRYH2;
 				INFOPLIST_FILE = Gayathri/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -313,7 +469,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.qurix.com.Gayathri;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
